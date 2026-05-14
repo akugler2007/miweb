@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(npm run *)",
+      "Bash(ls /tmp/*.jpg /tmp/*.jpeg /tmp/*.png /tmp/*.webp 2>/dev/null | head -20; ls ~/Downloads/*.jpg ~/Downloads/*.jpeg ~/Downloads/*.png ~/Downloads/*.webp 2>/dev/null | grep -v \"Edeen\" | head -10)",
+      "Bash(cp \"/Users/aaron/Downloads/pexels-vi-t-anh-nguy-n-2150409023-32355734.jpg\" \"/Users/aaron/Downloads/Edeen Redesign Studio/src/assets/edeen/casa-salon-new.jpg\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(lsof -ti:3000)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(pkill -f \"vite dev\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
