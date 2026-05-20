@@ -289,7 +289,7 @@ function EdeenAir() {
           </Reveal>
           <Reveal delay={200}>
             <h1 className="mt-5 font-display text-[13vw] leading-[0.86] tracking-[-0.045em] sm:text-[9.5vw] lg:text-[8rem] text-balance text-white [text-shadow:0_2px_24px_rgba(0,0,0,0.45)]">
-              Tu espacio
+              Tu <span className="text-[#0169af]">espacio</span>
               <br />
               natural en
               <br />
@@ -430,10 +430,10 @@ function EdeenAir() {
           </Reveal>
           <Reveal delay={100}>
             <h3 className="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl leading-[0.9] tracking-[-0.035em] text-balance text-white [text-shadow:0_2px_20px_rgba(0,0,0,0.4)]">
-              Te tratamos
+              Aquí te sientes
               <br />
               <em className="not-italic text-[#f1ece4]">
-                como a un invitado.
+                como en <span className="text-[#0169af]">casa.</span>
               </em>
             </h3>
           </Reveal>
