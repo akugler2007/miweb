@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { RoomNavigator } from "@/components/scenic";
 
-import jardin from "@/assets/edeen/dalias-hero.jpg";
+import jardin from "@/assets/edeen/drago-hero.jpg";
 import recibidor from "@/assets/edeen/casa-recibidor.webp";
 import salon from "@/assets/edeen/casa-salon-new.jpg";
 import cocina from "@/assets/edeen/rosas-cocina.jpg";
