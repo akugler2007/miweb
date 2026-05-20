@@ -110,13 +110,6 @@ export function ScenicBackdrop({
           }}
         />
       ))}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(8,12,10,0.10) 0%, rgba(8,12,10,0.10) 18%, rgba(8,12,10,0.28) 55%, rgba(8,12,10,0.46) 100%)",
-        }}
-      />
     </div>
   );
 }

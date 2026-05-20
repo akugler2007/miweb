@@ -35,7 +35,7 @@ export function HeroSlider() {
       {/* Velo para legibilidad */}
       <div
         aria-hidden
-        className="absolute inset-0 z-10 bg-gradient-to-b from-black/50 via-black/25 to-black/70"
+        className="absolute inset-0 z-10 bg-gradient-to-b from-black/20 via-black/10 to-black/45"
       />
 
       {/* Texto + CTAs */}
