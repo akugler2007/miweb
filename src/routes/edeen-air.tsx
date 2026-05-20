@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { RoomNavigator } from "@/components/scenic";
 
-import jardin from "@/assets/edeen/casa-jardin.webp";
+import jardin from "@/assets/edeen/dalias-hero.jpg";
 import recibidor from "@/assets/edeen/casa-recibidor.webp";
 import salon from "@/assets/edeen/casa-salon-new.jpg";
 import cocina from "@/assets/edeen/casa-cocina.jpg";
@@ -169,13 +169,6 @@ function RoomsBackdrop({
           }}
         />
       ))}
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(8,12,10,0.10) 0%, rgba(8,12,10,0.10) 18%, rgba(8,12,10,0.28) 55%, rgba(8,12,10,0.46) 100%)",
-        }}
-      />
     </div>
   );
 }
