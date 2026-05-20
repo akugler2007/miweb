@@ -166,7 +166,7 @@ function RoomsBackdrop({
             backgroundImage: `url(${src})`,
             opacity: i === 0 ? 1 : 0,
             willChange: "opacity",
-            filter: i === 0 ? "brightness(0.62) saturate(0.9)" : undefined,
+            filter: i === 0 ? "brightness(0.42) saturate(0.9)" : undefined,
           }}
         />
       ))}
