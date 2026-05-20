@@ -15,7 +15,7 @@ import { RoomNavigator } from "@/components/scenic";
 import jardin from "@/assets/edeen/dalias-hero.jpg";
 import recibidor from "@/assets/edeen/casa-recibidor.webp";
 import salon from "@/assets/edeen/casa-salon-new.jpg";
-import cocina from "@/assets/edeen/casa-cocina.jpg";
+import cocina from "@/assets/edeen/rosas-cocina.jpg";
 import patio from "@/assets/edeen/casa-patio.jpg";
 import terraza from "@/assets/edeen/casa-terraza.jpg";
 import exteriorFooter from "@/assets/edeen/exterior-edeen.webp";
@@ -166,7 +166,7 @@ function RoomsBackdrop({
             backgroundImage: `url(${src})`,
             opacity: i === 0 ? 1 : 0,
             willChange: "opacity",
-            filter: i === 0 ? "brightness(0.42) saturate(0.9)" : undefined,
+            filter: (i === 0 || i === 3) ? "brightness(0.42) saturate(0.9)" : undefined,
           }}
         />
       ))}
