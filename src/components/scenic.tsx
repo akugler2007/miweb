@@ -264,7 +264,7 @@ export function RoomNavigator({
 /* shared text/UI tokens that mirror edeen-air ----------------------- */
 
 export const sceneEyebrow =
-  "text-[0.65rem] uppercase tracking-[0.4em] text-white/95";
+  "text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]";
 
 export const sceneTitle =
   "font-display leading-[0.9] tracking-[-0.035em] text-balance text-white [text-shadow:0_2px_20px_rgba(0,0,0,0.4)]";
@@ -273,10 +273,10 @@ export const sceneBody =
   "text-lg leading-relaxed text-white/95 [text-shadow:0_1px_10px_rgba(0,0,0,0.45)]";
 
 export const scenePrimaryBtn =
-  "group inline-flex items-center gap-2 bg-white px-7 py-4 text-sm font-medium text-[#0169af] transition hover:bg-white/90";
+  "group inline-flex items-center gap-2 bg-[#0169af] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#0169af]/90";
 
 export const sceneGhostBtn =
-  "inline-flex items-center gap-2 border border-white/40 bg-white/10 px-7 py-4 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20";
+  "inline-flex items-center gap-2 border border-[#33a2ed]/60 bg-[#33a2ed]/10 px-7 py-4 text-sm font-medium text-[#33a2ed] backdrop-blur transition hover:bg-[#33a2ed]/20";
 
 export const sceneAccentBtn =
   "group inline-flex items-center gap-2 border border-[#33a2ed]/70 bg-[#33a2ed]/15 px-7 py-4 text-sm font-medium text-white backdrop-blur transition-all duration-300 hover:scale-105 hover:bg-[#33a2ed]/30 hover:shadow-[0_10px_40px_-10px_rgba(51,162,237,0.6)]";

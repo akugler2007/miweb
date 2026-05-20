@@ -75,6 +75,11 @@ function RootShell({ children }: { children: React.ReactNode }) {
 
 function RootComponent() {
   const { pathname } = useLocation();
+
+  if (pathname.startsWith('/stock')) {
+    return <Outlet />;
+  }
+
   const scenicRoutes = new Set([
     "/edeen-air",
     "/servicios",

@@ -11,7 +11,9 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
       "Bash(pkill -f \"vite dev\")",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
-      "Bash(pkill -f \"vite\")"
+      "Bash(pkill -f \"vite\")",
+      "Bash(find \"/Users/aaron/Downloads/Edeen Redesign Studio 2\" -name \"*.png\" -o -name \"*.PNG\" 2>/dev/null)",
+      "Bash(cp \"/Users/aaron/Downloads/Edeen Redesign Studio 2/logo edeen.png\" \"/Users/aaron/Downloads/Edeen Redesign Studio 2/.claude/worktrees/priceless-zhukovsky-034e04/src/assets/edeen/logo-edeen.png\")"
     ]
   }
 }

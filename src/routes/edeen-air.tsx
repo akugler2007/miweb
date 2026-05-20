@@ -316,7 +316,7 @@ function EdeenAir() {
               <a
                 href="#recibidor"
                 data-rounded="full"
-                className="group inline-flex items-center gap-2 bg-white px-6 py-3.5 text-sm font-medium text-[#0169af] transition hover:bg-white/90"
+                className="group inline-flex items-center gap-2 bg-[#0169af] px-6 py-3.5 text-sm font-medium text-white transition hover:bg-[#0169af]/90"
               >
                 Descubre eDeen
                 <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
@@ -324,7 +324,7 @@ function EdeenAir() {
               <Link
                 to="/contacto"
                 data-rounded="full"
-                className="inline-flex items-center gap-2 border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20"
+                className="inline-flex items-center gap-2 border border-[#33a2ed]/60 bg-[#33a2ed]/10 px-6 py-3.5 text-sm font-medium text-[#33a2ed] backdrop-blur transition hover:bg-[#33a2ed]/20"
               >
                 Ven a visitarnos
               </Link>
@@ -352,7 +352,7 @@ function EdeenAir() {
         <div className="relative z-10 mx-auto max-w-7xl px-5 lg:px-8">
           <div className="max-w-2xl">
             <Reveal>
-              <p className="text-[0.65rem] uppercase tracking-[0.4em] text-white/95">
+              <p className="text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]">
                 Lo que hacemos
               </p>
             </Reveal>
@@ -430,7 +430,7 @@ function EdeenAir() {
       >
         <div className="relative z-10 mx-auto max-w-5xl px-5 lg:px-8 text-center">
           <Reveal>
-            <p className="text-[0.65rem] uppercase tracking-[0.4em] text-white/95">
+            <p className="text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]">
               Cómo te tratamos
             </p>
           </Reveal>
@@ -480,8 +480,7 @@ function EdeenAir() {
             <Link
               to="/sobre-nosotros"
               data-rounded="full"
-              className="mt-12 inline-flex items-center gap-2 border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-medium text-white backdrop-blur transition hover:bg-white"
-              style={{}}
+              className="mt-12 inline-flex items-center gap-2 border border-[#33a2ed]/60 bg-[#33a2ed]/10 px-6 py-3.5 text-sm font-medium text-[#33a2ed] backdrop-blur transition hover:bg-[#33a2ed]/20"
             >
               Conoce el equipo <ArrowRight className="h-4 w-4" />
             </Link>
@@ -499,7 +498,7 @@ function EdeenAir() {
         <div className="relative z-10 mx-auto max-w-7xl px-5 lg:px-8">
           <div className="max-w-2xl">
             <Reveal>
-              <p className="text-[0.65rem] uppercase tracking-[0.4em] text-white/95">
+              <p className="text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]">
                 eDeen en cifras
               </p>
             </Reveal>
@@ -546,7 +545,7 @@ function EdeenAir() {
           <div className="grid gap-16 lg:grid-cols-12 lg:items-end mb-16">
             <div className="lg:col-span-7">
               <Reveal>
-                <p className="text-[0.65rem] uppercase tracking-[0.4em] text-white/95">
+                <p className="text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]">
                   Es Berenar
                 </p>
               </Reveal>
@@ -649,7 +648,7 @@ function EdeenAir() {
       >
         <div className="relative z-10 mx-auto max-w-7xl px-5 lg:px-8 py-32 lg:py-44 text-center text-white w-full">
           <Reveal>
-            <p className="text-[0.65rem] uppercase tracking-[0.4em] text-white/90">
+            <p className="text-[0.65rem] uppercase tracking-[0.4em] text-[#33a2ed]">
               Te esperamos
             </p>
           </Reveal>
@@ -680,7 +679,7 @@ function EdeenAir() {
                 to="/contacto"
                 data-rounded="full"
                 onClick={() => trackCta("como_llegar")}
-                className="group inline-flex items-center gap-2 bg-white px-7 py-4 text-sm font-medium text-[#0169af] transition hover:bg-white/90"
+                className="group inline-flex items-center gap-2 bg-[#0169af] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#0169af]/90"
               >
                 Cómo llegar
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

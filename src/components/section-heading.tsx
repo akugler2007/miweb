@@ -14,7 +14,7 @@ export function SectionHeading({ eyebrow, title, description, align = "center", 
         <p
           className={
             "mb-4 text-xs uppercase tracking-[0.3em] " +
-            (invert ? "text-white/70" : "text-terracotta")
+            (invert ? "text-white/70" : "text-[#0169af]")
           }
         >
           {eyebrow}
